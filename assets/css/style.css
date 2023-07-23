@@ -318,6 +318,7 @@ Start Hero Section
           box-shadow: var(--shadow-primary);
 }
 
+.hero-container,
 .hero-content {
   z-index: 111;
 }
