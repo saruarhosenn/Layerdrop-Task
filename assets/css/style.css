@@ -527,7 +527,7 @@ Start Hero Section
   background: var(--linear-gradient-bg2);
   -webkit-box-shadow: var(--shadow-third);
           box-shadow: var(--shadow-third);
-  z-index: 11;
+  z-index: 111;
 }
 
 .hero-img-content .hero-img-content__img {
