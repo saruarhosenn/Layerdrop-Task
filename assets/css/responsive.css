@@ -1,0 +1,468 @@
+/*
+=========================================
+Responsive Breakpoint
+=========================================
+*/
+@media (max-width: 1799px) {
+	/* 
+	  --------------------------------------
+	  Hero Section Responsive
+	  --------------------------------------
+	  */
+	.hero-img-content {
+	  right: -4rem;
+	}
+  }
+  
+  @media (max-width: 1599px) {
+	/* 
+	  --------------------------------------
+	  Hero Section Responsive
+	  --------------------------------------
+	  */
+	.hero-section {
+	  padding-top: 20rem;
+	}
+  
+	.hero-img-content {
+	  right: 3.5rem;
+	  width: 55rem;
+	  height: 55rem;
+	}
+  
+	.hero-img-content .hero-img-content__img {
+	  width: 50rem;
+	  height: 50rem;
+	}
+  
+	.hero-img-content .hero-img-content__shop {
+	  left: -9.2rem;
+	  bottom: 1.7rem;
+	}
+  
+	.hero-img-content .hero-img-content__global {
+	  top: -3rem;
+	}
+  
+	.hero-img-content .hero-img-content__star-2 {
+	  bottom: -1.5rem;
+	}
+  
+	.hero-img-content .hero-img-content__book {
+	  bottom: -1.2rem;
+	}
+  
+	.hero-img-content .hero-img-content__pulse {
+	  width: 10rem;
+	  height: 10rem;
+	  background-size: 10rem 10rem;
+	  top: 24%;
+	  right: -5.5%;
+	}
+  
+	.hero-section__bg-shape {
+	  right: 20rem;
+	}
+  }
+  
+  @media (max-width: 1399px) {
+	/* 
+	  --------------------------------------
+	   Variables
+	  --------------------------------------
+	  */
+	:root {
+	  --size-3xl: 6.5rem;
+	}
+  
+	/* 
+	  --------------------------------------
+	  Hero Section Responsive
+	  --------------------------------------
+	  */
+	.hero-content .hero-content__desc::after {
+	  right: -13%;
+	}
+  
+	.hero-content__btn-group .hero-content__btn {
+	  padding: 1.7rem 2.4rem;
+	  font-size: var(--size-xl);
+	}
+  
+	.hero-img-content {
+	  right: -3.5rem;
+	  width: 50rem;
+	  height: 50rem;
+	}
+  
+	.hero-img-content .hero-img-content__img {
+	  width: 45rem;
+	  height: 45rem;
+	}
+  
+	.hero-img-content .hero-img-content__shop {
+	  min-width: 19rem;
+	  padding: 3rem 2rem 2rem;
+	  left: -8rem;
+	  bottom: 1.7rem;
+	}
+  
+	.hero-img-content__shop .hero-img-content__shop-shape::after {
+	  right: -6rem;
+	}
+  
+	.hero-img-content .hero-img-content__shop::after {
+	  right: -1.3rem;
+	  bottom: -1.3rem;
+	}
+  
+	.hero-img-content .hero-img-content__cap {
+	  top: 1rem;
+	  left: 0;
+	  width: 8rem;
+	}
+  
+	.hero-img-content .hero-img-content__global {
+	  top: -2rem;
+	  right: 8rem;
+	  width: 4rem;
+	}
+  
+	.hero-img-content .hero-img-content__star-2 {
+	  bottom: -2rem;
+	}
+  
+	.hero-img-content .hero-img-content__book {
+	  bottom: 2rem;
+	  width: 7rem;
+	}
+  
+	.hero-img-content .hero-img-content__pulse {
+	  width: 8rem;
+	  height: 8rem;
+	  background-size: 8rem 8rem;
+	  top: 24%;
+	  right: -1.5%;
+	}
+  
+	.hero-section__bg-shape {
+	  right: 13rem;
+	}
+  }
+  
+  @media (max-width: 1199px) {
+	/* 
+	  --------------------------------------
+	   Variables
+	  --------------------------------------
+	  */
+	:root {
+	  --size-3xl: 5rem;
+	}
+  
+	/* 
+	  --------------------------------------
+	  Hero Section Responsive
+	  --------------------------------------
+	  */
+	.hero-section {
+	  padding-top: 18rem;
+	}
+  
+	.hero-content .hero-content__desc::after {
+	  top: 2rem;
+	  right: -7%;
+	  width: 5rem;
+	  height: 3rem;
+	}
+  
+	@-webkit-keyframes animationLine {
+	  0% {
+		width: 0;
+	  }
+	  15% {
+		width: 5rem;
+	  }
+	  85% {
+		opacity: 1;
+	  }
+	  90% {
+		width: 5rem;
+		opacity: 0;
+	  }
+	  to {
+		width: 0;
+		opacity: 0;
+	  }
+	}
+  
+	@keyframes animationLine {
+	  0% {
+		width: 0;
+	  }
+	  15% {
+		width: 5rem;
+	  }
+	  85% {
+		opacity: 1;
+	  }
+	  90% {
+		width: 5rem;
+		opacity: 0;
+	  }
+	  to {
+		width: 0;
+		opacity: 0;
+	  }
+	}
+  
+	.hero-img-content {
+	  right: -2.5rem;
+	  width: 45rem;
+	  height: 45rem;
+	}
+  
+	.hero-img-content .hero-img-content__img {
+	  width: 40rem;
+	  height: 40rem;
+	}
+  
+	.hero-img-content .hero-img-content__shop {
+	  min-width: 16rem;
+	  left: -5.2rem;
+	  bottom: -1.5rem;
+	}
+  
+	.hero-img-content__shop .hero-img-content__shop-shape::after {
+	  right: -7rem;
+	}
+  
+	.hero-img-content .hero-img-content__cap {
+	  top: 2.5rem;
+	  width: 6rem;
+	}
+  
+	.hero-img-content .hero-img-content__global {
+	  top: -1.5rem;
+	  width: 3.5rem;
+	}
+  
+	.hero-img-content .hero-img-content__star-1 {
+	  top: -4rem;
+	  width: 3.5rem;
+	}
+  
+	.hero-img-content .hero-img-content__book {
+	  bottom: 3rem;
+	  width: 5.5rem;
+	}
+  
+	.hero-img-content .hero-img-content__pulse {
+	  top: 50%;
+	  left: 50%;
+	  -webkit-transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+			  transform: translate(-50%, -50%);
+	}
+  
+	.hero-section__bg-shape {
+	  right: 18rem;
+	}
+  
+	/* 
+	  --------------------------------------
+	  Services Section Responsive
+	  --------------------------------------
+	  */
+	.services-row {
+	  --bs-gutter-x: 3rem;
+	  --bs-gutter-y: 3rem;
+	}
+  
+	.service-card {
+	  padding: 3rem 2rem;
+	}
+  }
+  
+  @media (max-width: 991px) {
+	/* 
+	  --------------------------------------
+	   Variables
+	  --------------------------------------
+	  */
+	:root {
+	  --size-3xl: 4.5rem;
+	}
+  
+	/* 
+	  --------------------------------------
+	  Hero Section Responsive
+	  --------------------------------------
+	  */
+	.hero-section {
+	  padding-top: 8rem;
+	  padding-bottom: 12rem;
+	}
+  
+	.hero-img-content {
+	  margin: 8rem auto 0;
+	  position: relative;
+	  position: static;
+	  width: 45rem;
+	  height: 45rem;
+	  -webkit-transform: translateY(0);
+		  -ms-transform: translateY(0);
+			  transform: translateY(0);
+	}
+  }
+  
+  @media (max-width: 767px) {
+	/* 
+	  --------------------------------------
+	   Variables
+	  --------------------------------------
+	  */
+	:root {
+	  --size-3xl: 4rem;
+	}
+  
+	/* 
+	  --------------------------------------
+	  Hero Section Responsive
+	  --------------------------------------
+	  */
+	.hero-img-content .hero-img-content__shop {
+	  left: 0rem;
+	}
+  
+	.hero-section__bg-shape {
+	  display: none;
+	}
+  
+	/* 
+	  --------------------------------------
+	  Services Section Responsive
+	  --------------------------------------
+	  */
+	.services-section {
+	  padding: 10rem 0;
+	}
+  }
+  
+  @media (max-width: 575px) {
+	/* 
+	  --------------------------------------
+	  Services Section Responsive
+	  --------------------------------------
+	  */
+	.services-section {
+	  padding: 8rem 0;
+	}
+  }
+  
+  @media (max-width: 495px) {
+	/* 
+	  --------------------------------------
+	  Hero Section Responsive
+	  --------------------------------------
+	  */
+	.hero-section {
+	  padding-bottom: 15rem;
+	}
+  
+	.hero-content .hero-content__desc {
+	  max-width: 37rem;
+	}
+  
+	.hero-img-content {
+	  width: 35rem;
+	  height: 35rem;
+	}
+  
+	.hero-img-content .hero-img-content__img {
+	  width: 30rem;
+	  height: 30rem;
+	}
+  
+	.hero-img-content .hero-img-content__shop {
+	  left: 1rem;
+	  bottom: -7.5rem;
+	}
+  
+	.hero-img-content .hero-img-content__cap {
+	  top: 1.5rem;
+	  width: 5.5rem;
+	}
+  
+	.hero-img-content .hero-img-content__global {
+	  right: 4rem;
+	}
+  
+	.hero-img-content .hero-img-content__star-2 {
+	  bottom: -1rem;
+	}
+  
+	.hero-img-content .hero-img-content__book {
+	  bottom: 0rem;
+	  width: 5rem;
+	}
+  }
+  
+  @media (max-width: 425px) {
+	/* 
+	  --------------------------------------
+	   Variables
+	  --------------------------------------
+	  */
+	:root {
+	  --size-3xl: 3.5rem;
+	}
+  
+	/* 
+	  --------------------------------------
+	  Hero Section Responsive
+	  --------------------------------------
+	  */
+	.hero-content .hero-content__desc::after {
+	  display: none;
+	}
+  }
+  
+  @media (max-width: 375px) {
+	/* 
+	  --------------------------------------
+	   Variables
+	  --------------------------------------
+	  */
+	:root {
+	  --size-3xl: 3.2rem;
+	}
+  
+	/* 
+	  --------------------------------------
+	  Hero Section Responsive
+	  --------------------------------------
+	  */
+	.hero-img-content {
+	  width: 30rem;
+	  height: 30rem;
+	}
+  
+	.hero-img-content .hero-img-content__img {
+	  width: 25rem;
+	  height: 25rem;
+	}
+  
+	.hero-img-content .hero-img-content__cap {
+	  top: 0.5rem;
+	}
+  
+	.hero-img-content .hero-img-content__global {
+	  right: 2rem;
+	}
+  
+	.hero-img-content .hero-img-content__star-2 {
+	  bottom: -5rem;
+	  left: 20rem;
+	}
+  }
